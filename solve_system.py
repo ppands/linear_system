@@ -32,7 +32,7 @@ def get_solution():
     num_result = get_numbers(result)
 
     matriz_a = numpy.array(list_aux)
-    matriz_x = numpy.array(num_result)
+    matriz_b = numpy.array(num_result)
 
     resp = numpy.linalg.solve(matriz_a, matriz_x)
 
